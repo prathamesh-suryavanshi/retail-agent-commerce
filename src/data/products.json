@@ -1,0 +1,1175 @@
+[
+ {
+  "id": 1,
+  "name": "Wireless Noise-Cancelling Headphones",
+  "category": "Electronics",
+  "description": "Over-ear Bluetooth headphones with 30-hour battery and active noise cancellation.",
+  "specs": {
+   "battery": "30 hours",
+   "connectivity": "Bluetooth 5.3",
+   "warranty": "1 year"
+  },
+  "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb",
+  "variants": [
+   {
+    "id": 1,
+    "sku": "SW-001-1",
+    "label": "Black",
+    "price": 7999,
+    "quantity": 0
+   },
+   {
+    "id": 2,
+    "sku": "SW-001-2",
+    "label": "Silver",
+    "price": 7999,
+    "quantity": 0
+   },
+   {
+    "id": 3,
+    "sku": "SW-001-3",
+    "label": "Blue",
+    "price": 8499,
+    "quantity": 3
+   }
+  ],
+  "seller": "ShopWave Originals",
+  "kind": "headphones"
+ },
+ {
+  "id": 2,
+  "name": "Smartphone 128GB",
+  "category": "Electronics",
+  "description": "6.5-inch AMOLED display, 50MP camera and all-day battery.",
+  "specs": {
+   "display": "6.5\" AMOLED",
+   "storage": "128 GB",
+   "warranty": "1 year"
+  },
+  "image": "https://images.unsplash.com/photo-1757710436034-f1d7372ec1be",
+  "variants": [
+   {
+    "id": 4,
+    "sku": "SW-002-1",
+    "label": "Midnight",
+    "price": 18999,
+    "quantity": 12
+   },
+   {
+    "id": 5,
+    "sku": "SW-002-2",
+    "label": "Ocean Blue",
+    "price": 18999,
+    "quantity": 5
+   },
+   {
+    "id": 6,
+    "sku": "SW-002-3",
+    "label": "Sunset Gold",
+    "price": 19499,
+    "quantity": 1
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 3,
+  "name": "Smartwatch Fitness Tracker",
+  "category": "Electronics",
+  "description": "Heart-rate, sleep and step tracking with a 7-day battery.",
+  "specs": {
+   "battery": "7 days",
+   "water_resistance": "5 ATM"
+  },
+  "image": "https://images.unsplash.com/photo-1624096104992-9b4fa3a279dd",
+  "variants": [
+   {
+    "id": 7,
+    "sku": "SW-003-1",
+    "label": "Black strap",
+    "price": 3499,
+    "quantity": 25
+   },
+   {
+    "id": 8,
+    "sku": "SW-003-2",
+    "label": "Green strap",
+    "price": 3499,
+    "quantity": 9
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 4,
+  "name": "Portable Bluetooth Speaker",
+  "category": "Electronics",
+  "description": "Waterproof pocket speaker with 12 hours of playtime.",
+  "specs": {
+   "battery": "12 hours",
+   "water_resistance": "IPX7"
+  },
+  "image": "https://images.unsplash.com/photo-1582978571763-2d039e56f0c3",
+  "variants": [
+   {
+    "id": 9,
+    "sku": "SW-004-1",
+    "label": "Black",
+    "price": 2299,
+    "quantity": 30
+   },
+   {
+    "id": 10,
+    "sku": "SW-004-2",
+    "label": "Red",
+    "price": 2299,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 5,
+  "name": "Laptop 15.6-inch",
+  "category": "Electronics",
+  "description": "Everyday laptop for work and study, with a fast SSD.",
+  "specs": {
+   "ram": "16 GB",
+   "storage": "512 GB SSD",
+   "warranty": "1 year"
+  },
+  "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef",
+  "variants": [
+   {
+    "id": 11,
+    "sku": "SW-005-1",
+    "label": "Silver",
+    "price": 52999,
+    "quantity": 6
+   },
+   {
+    "id": 12,
+    "sku": "SW-005-2",
+    "label": "Space Grey",
+    "price": 54999,
+    "quantity": 2
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 6,
+  "name": "Power Bank 20000mAh",
+  "category": "Electronics",
+  "description": "Fast-charging power bank with two USB ports and USB-C.",
+  "specs": {
+   "capacity": "20000 mAh",
+   "output": "22.5 W"
+  },
+  "image": "https://images.unsplash.com/photo-1706275399494-fb26bbc5da63",
+  "variants": [
+   {
+    "id": 13,
+    "sku": "SW-006-1",
+    "label": "Black",
+    "price": 1799,
+    "quantity": 60
+   },
+   {
+    "id": 14,
+    "sku": "SW-006-2",
+    "label": "White",
+    "price": 1799,
+    "quantity": 34
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 7,
+  "name": "Classic Cotton T-Shirt",
+  "category": "Fashion",
+  "description": "Soft everyday crew-neck tee in 100% combed cotton.",
+  "specs": {
+   "fabric": "100% cotton",
+   "fit": "Regular"
+  },
+  "image": "https://images.unsplash.com/photo-1651761179569-4ba2aa054997",
+  "variants": [
+   {
+    "id": 15,
+    "sku": "SW-007-1",
+    "label": "S",
+    "price": 599,
+    "quantity": 40
+   },
+   {
+    "id": 16,
+    "sku": "SW-007-2",
+    "label": "M",
+    "price": 599,
+    "quantity": 55
+   },
+   {
+    "id": 17,
+    "sku": "SW-007-3",
+    "label": "L",
+    "price": 599,
+    "quantity": 18
+   },
+   {
+    "id": 18,
+    "sku": "SW-007-4",
+    "label": "XL",
+    "price": 599,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 8,
+  "name": "Slim Fit Denim Jeans",
+  "category": "Fashion",
+  "description": "Stretch denim jeans with a comfortable mid-rise fit.",
+  "specs": {
+   "fabric": "Cotton stretch denim",
+   "fit": "Slim"
+  },
+  "image": "https://images.unsplash.com/photo-1714143136372-ddaf8b606da7",
+  "variants": [
+   {
+    "id": 19,
+    "sku": "SW-008-1",
+    "label": "30",
+    "price": 1799,
+    "quantity": 14
+   },
+   {
+    "id": 20,
+    "sku": "SW-008-2",
+    "label": "32",
+    "price": 1799,
+    "quantity": 20
+   },
+   {
+    "id": 21,
+    "sku": "SW-008-3",
+    "label": "34",
+    "price": 1799,
+    "quantity": 4
+   },
+   {
+    "id": 22,
+    "sku": "SW-008-4",
+    "label": "36",
+    "price": 1799,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 9,
+  "name": "Running Shoes",
+  "category": "Fashion",
+  "description": "Lightweight cushioned trainers for daily runs.",
+  "specs": {
+   "upper": "Breathable mesh",
+   "sole": "EVA foam"
+  },
+  "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb",
+  "variants": [
+   {
+    "id": 23,
+    "sku": "SW-009-1",
+    "label": "UK 7",
+    "price": 2999,
+    "quantity": 10
+   },
+   {
+    "id": 24,
+    "sku": "SW-009-2",
+    "label": "UK 8",
+    "price": 2999,
+    "quantity": 15
+   },
+   {
+    "id": 25,
+    "sku": "SW-009-3",
+    "label": "UK 9",
+    "price": 2999,
+    "quantity": 6
+   },
+   {
+    "id": 26,
+    "sku": "SW-009-4",
+    "label": "UK 10",
+    "price": 2999,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 10,
+  "name": "Leather Wallet",
+  "category": "Fashion",
+  "description": "Slim genuine-leather wallet with card slots and coin pocket.",
+  "specs": {
+   "material": "Genuine leather"
+  },
+  "image": "https://images.unsplash.com/photo-1624538000860-24716b9050f2",
+  "variants": [
+   {
+    "id": 27,
+    "sku": "SW-010-1",
+    "label": "Brown",
+    "price": 899,
+    "quantity": 35
+   },
+   {
+    "id": 28,
+    "sku": "SW-010-2",
+    "label": "Black",
+    "price": 899,
+    "quantity": 22
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 11,
+  "name": "Backpack 25L",
+  "category": "Fashion",
+  "description": "Water-resistant backpack with padded laptop compartment.",
+  "specs": {
+   "capacity": "25 litres"
+  },
+  "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+  "variants": [
+   {
+    "id": 29,
+    "sku": "SW-011-1",
+    "label": "Navy",
+    "price": 1499,
+    "quantity": 28
+   },
+   {
+    "id": 30,
+    "sku": "SW-011-2",
+    "label": "Grey",
+    "price": 1499,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 12,
+  "name": "Non-Stick Cookware Set",
+  "category": "Home & Kitchen",
+  "description": "3-piece set: frying pan, kadhai and saucepan with lids.",
+  "specs": {
+   "material": "Aluminium, non-stick",
+   "induction": "Compatible"
+  },
+  "image": "https://images.unsplash.com/photo-1584990347193-6bebebfeaeee",
+  "variants": [
+   {
+    "id": 31,
+    "sku": "SW-012-1",
+    "label": "3-piece",
+    "price": 2499,
+    "quantity": 16
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 13,
+  "name": "Electric Kettle 1.5L",
+  "category": "Home & Kitchen",
+  "description": "Stainless steel kettle with auto shut-off.",
+  "specs": {
+   "capacity": "1.5 L",
+   "power": "1500 W"
+  },
+  "image": "https://images.unsplash.com/photo-1685514128186-c5d8d7e90e1a",
+  "variants": [
+   {
+    "id": 32,
+    "sku": "SW-013-1",
+    "label": "Silver",
+    "price": 1099,
+    "quantity": 42
+   },
+   {
+    "id": 33,
+    "sku": "SW-013-2",
+    "label": "Black",
+    "price": 1099,
+    "quantity": 8
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 14,
+  "name": "Cotton Bedsheet Set",
+  "category": "Home & Kitchen",
+  "description": "Double bedsheet with two pillow covers, 144 thread count.",
+  "specs": {
+   "fabric": "100% cotton"
+  },
+  "image": "https://images.unsplash.com/photo-1598535746036-87d13382f6a6",
+  "variants": [
+   {
+    "id": 34,
+    "sku": "SW-014-1",
+    "label": "Blue stripes",
+    "price": 1299,
+    "quantity": 20
+   },
+   {
+    "id": 35,
+    "sku": "SW-014-2",
+    "label": "Floral",
+    "price": 1399,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 15,
+  "name": "LED Desk Lamp",
+  "category": "Home & Kitchen",
+  "description": "Dimmable desk lamp with three colour modes and USB charging.",
+  "specs": {
+   "power": "10 W"
+  },
+  "image": "https://images.unsplash.com/photo-1570974802254-4b0ad1a755f5",
+  "variants": [
+   {
+    "id": 36,
+    "sku": "SW-015-1",
+    "label": "White",
+    "price": 999,
+    "quantity": 3
+   },
+   {
+    "id": 37,
+    "sku": "SW-015-2",
+    "label": "Black",
+    "price": 999,
+    "quantity": 26
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 16,
+  "name": "Vitamin C Face Serum",
+  "category": "Beauty",
+  "description": "Brightening daily serum with 10% Vitamin C.",
+  "specs": {
+   "size": "30 ml"
+  },
+  "image": "https://images.unsplash.com/photo-1764694187667-f28a05a52c0e",
+  "variants": [
+   {
+    "id": 38,
+    "sku": "SW-016-1",
+    "label": "30 ml",
+    "price": 599,
+    "quantity": 44
+   },
+   {
+    "id": 39,
+    "sku": "SW-016-2",
+    "label": "50 ml",
+    "price": 849,
+    "quantity": 17
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 17,
+  "name": "Sunscreen SPF 50",
+  "category": "Beauty",
+  "description": "Lightweight, non-greasy broad-spectrum sunscreen.",
+  "specs": {
+   "spf": "50 PA+++"
+  },
+  "image": "https://images.unsplash.com/photo-1623676714504-edd78728155e",
+  "variants": [
+   {
+    "id": 40,
+    "sku": "SW-017-1",
+    "label": "50 g",
+    "price": 449,
+    "quantity": 70
+   },
+   {
+    "id": 41,
+    "sku": "SW-017-2",
+    "label": "100 g",
+    "price": 749,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 18,
+  "name": "Hair Dryer 2000W",
+  "category": "Beauty",
+  "description": "Fast-drying hair dryer with cool-shot and two speeds.",
+  "specs": {
+   "power": "2000 W"
+  },
+  "image": "https://images.unsplash.com/photo-1727364438136-6edc10ef0a52",
+  "variants": [
+   {
+    "id": 42,
+    "sku": "SW-018-1",
+    "label": "Black",
+    "price": 1299,
+    "quantity": 12
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 19,
+  "name": "Yoga Mat 6mm",
+  "category": "Sports & Fitness",
+  "description": "Non-slip, extra-cushioned exercise mat with carry strap.",
+  "specs": {
+   "thickness": "6 mm"
+  },
+  "image": "https://images.unsplash.com/photo-1763004871583-4183d64096b1",
+  "variants": [
+   {
+    "id": 43,
+    "sku": "SW-019-1",
+    "label": "Purple",
+    "price": 699,
+    "quantity": 38
+   },
+   {
+    "id": 44,
+    "sku": "SW-019-2",
+    "label": "Teal",
+    "price": 699,
+    "quantity": 21
+   },
+   {
+    "id": 45,
+    "sku": "SW-019-3",
+    "label": "Black",
+    "price": 699,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 20,
+  "name": "Adjustable Dumbbell Set",
+  "category": "Sports & Fitness",
+  "description": "Pair of adjustable dumbbells, 2 to 10 kg each.",
+  "specs": {
+   "weight": "2-10 kg each"
+  },
+  "image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c",
+  "variants": [
+   {
+    "id": 46,
+    "sku": "SW-020-1",
+    "label": "10 kg pair",
+    "price": 3499,
+    "quantity": 7
+   },
+   {
+    "id": 47,
+    "sku": "SW-020-2",
+    "label": "20 kg pair",
+    "price": 5999,
+    "quantity": 2
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 21,
+  "name": "Insulated Steel Water Bottle",
+  "category": "Sports & Fitness",
+  "description": "Keeps drinks cold for 24 hours and hot for 12.",
+  "specs": {
+   "material": "Stainless steel"
+  },
+  "image": "https://images.unsplash.com/photo-1544003484-3cd181d17917",
+  "variants": [
+   {
+    "id": 48,
+    "sku": "SW-021-1",
+    "label": "500 ml",
+    "price": 799,
+    "quantity": 50
+   },
+   {
+    "id": 49,
+    "sku": "SW-021-2",
+    "label": "1 L",
+    "price": 1099,
+    "quantity": 19
+   }
+  ],
+  "seller": "ShopWave Originals",
+  "kind": "water bottle"
+ },
+ {
+  "id": 22,
+  "name": "Productivity Habits (Paperback)",
+  "category": "Books",
+  "description": "Practical guide to building routines that stick.",
+  "specs": {
+   "format": "Paperback",
+   "pages": "288"
+  },
+  "image": "https://images.unsplash.com/photo-1519764340700-3db40311f21e",
+  "variants": [
+   {
+    "id": 50,
+    "sku": "SW-022-1",
+    "label": "Paperback",
+    "price": 399,
+    "quantity": 45
+   },
+   {
+    "id": 51,
+    "sku": "SW-022-2",
+    "label": "Hardcover",
+    "price": 699,
+    "quantity": 6
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 23,
+  "name": "Beginner Cookbook",
+  "category": "Books",
+  "description": "100 easy recipes with photos for first-time cooks.",
+  "specs": {
+   "format": "Paperback",
+   "pages": "240"
+  },
+  "image": "https://images.unsplash.com/photo-1542010589005-d1eacc3918f2",
+  "variants": [
+   {
+    "id": 52,
+    "sku": "SW-023-1",
+    "label": "Paperback",
+    "price": 499,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 24,
+  "name": "Building Blocks Set 500 pcs",
+  "category": "Toys & Games",
+  "description": "Colourful creative building set for ages 6 and up.",
+  "specs": {
+   "pieces": "500",
+   "age": "6+"
+  },
+  "image": "https://images.unsplash.com/photo-1638802538115-041e14d28d6a",
+  "variants": [
+   {
+    "id": 53,
+    "sku": "SW-024-1",
+    "label": "500 pcs",
+    "price": 1299,
+    "quantity": 18
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 25,
+  "name": "Strategy Board Game",
+  "category": "Toys & Games",
+  "description": "Family board game for 2 to 6 players, 45 minutes.",
+  "specs": {
+   "players": "2-6",
+   "age": "8+"
+  },
+  "image": "https://images.unsplash.com/photo-1629760946220-5693ee4c46ac",
+  "variants": [
+   {
+    "id": 54,
+    "sku": "SW-025-1",
+    "label": "Standard",
+    "price": 1499,
+    "quantity": 9
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 26,
+  "name": "Organic Green Tea",
+  "category": "Grocery",
+  "description": "Pack of 100 tea bags, naturally caffeinated.",
+  "specs": {
+   "pack": "100 bags"
+  },
+  "image": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5",
+  "variants": [
+   {
+    "id": 55,
+    "sku": "SW-026-1",
+    "label": "100 bags",
+    "price": 349,
+    "quantity": 80
+   },
+   {
+    "id": 56,
+    "sku": "SW-026-2",
+    "label": "200 bags",
+    "price": 649,
+    "quantity": 0
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 27,
+  "name": "Roasted Almonds",
+  "category": "Grocery",
+  "description": "Lightly salted roasted almonds, resealable pouch.",
+  "specs": {
+   "type": "Roasted, salted"
+  },
+  "image": "https://images.unsplash.com/photo-1608797178974-15b35a64ede9",
+  "variants": [
+   {
+    "id": 57,
+    "sku": "SW-027-1",
+    "label": "250 g",
+    "price": 299,
+    "quantity": 60
+   },
+   {
+    "id": 58,
+    "sku": "SW-027-2",
+    "label": "500 g",
+    "price": 549,
+    "quantity": 4
+   }
+  ],
+  "seller": "ShopWave Originals"
+ },
+ {
+  "id": 28,
+  "name": "TrailCo Summit Steel Bottle",
+  "category": "Sports & Fitness",
+  "seller": "TrailCo",
+  "kind": "water bottle",
+  "description": "Double-wall vacuum steel bottle built for treks and long hikes. Leak-proof lid with a carry loop and a powder-coated grip.",
+  "specs": {
+   "capacity": "750 ml",
+   "weight": "520 g",
+   "material": "18/8 stainless steel",
+   "insulation": "Cold 24 h, hot 12 h",
+   "leak_proof": "Yes",
+   "warranty": "2 years"
+  },
+  "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+  "variants": [
+   {
+    "id": 59,
+    "sku": "TC-028-1",
+    "label": "750 ml",
+    "price": 1299,
+    "quantity": 40
+   }
+  ],
+  "aeo": {
+   "summary": "A leak-proof 750 ml steel bottle for treks and hikes. Keeps water cold for 24 hours and weighs 520 g.",
+   "faqs": [
+    {
+     "q": "Is it leak-proof?",
+     "a": "Yes. The screw lid has a silicone seal and is tested upside down in a backpack."
+    },
+    {
+     "q": "Can it carry hot drinks?",
+     "a": "Yes, it keeps drinks hot for 12 hours."
+    },
+    {
+     "q": "Does it fit a backpack side pocket?",
+     "a": "Yes, it is 7.2 cm wide."
+    }
+   ],
+   "keywords": [
+    "trekking bottle",
+    "hiking",
+    "insulated",
+    "leak-proof",
+    "steel"
+   ],
+   "best_for": [
+    "trekking",
+    "hiking",
+    "camping"
+   ]
+  }
+ },
+ {
+  "id": 29,
+  "name": "HydroPeak Daily Insulated Bottle",
+  "category": "Sports & Fitness",
+  "seller": "HydroPeak",
+  "kind": "water bottle",
+  "description": "A 1 litre insulated bottle for the office and the gym, with a wide mouth for ice and an easy-clean finish.",
+  "specs": {
+   "capacity": "1 L",
+   "weight": "480 g",
+   "material": "Stainless steel",
+   "insulation": "Cold 18 h, hot 8 h",
+   "leak_proof": "Yes",
+   "warranty": "1 year"
+  },
+  "image": "https://images.unsplash.com/photo-1605714312496-01e90cb509cc",
+  "variants": [
+   {
+    "id": 60,
+    "sku": "HP-029-1",
+    "label": "1 L",
+    "price": 1449,
+    "quantity": 25
+   }
+  ],
+  "aeo": {
+   "summary": "A 1 litre insulated bottle for office days and gym sessions. Cold for 18 hours, wide mouth for ice.",
+   "faqs": [
+    {
+     "q": "Is it dishwasher safe?",
+     "a": "The lid is. Hand-wash the body."
+    },
+    {
+     "q": "Will it fit a car cup holder?",
+     "a": "No, it is 9 cm wide."
+    },
+    {
+     "q": "Is it leak-proof?",
+     "a": "Yes, with the lid fully closed."
+    }
+   ],
+   "keywords": [
+    "office bottle",
+    "gym bottle",
+    "1 litre",
+    "insulated"
+   ],
+   "best_for": [
+    "office",
+    "gym"
+   ]
+  }
+ },
+ {
+  "id": 30,
+  "name": "AquaKids Flip-Straw School Bottle",
+  "category": "Sports & Fitness",
+  "seller": "AquaKids",
+  "kind": "water bottle",
+  "description": "A light 500 ml school water bottle for children, with a flip straw lid that locks shut and a carry handle. Not insulated.",
+  "specs": {
+   "capacity": "500 ml",
+   "weight": "180 g",
+   "material": "BPA-free Tritan plastic",
+   "insulation": "Not insulated",
+   "leak_proof": "Yes, locking straw lid",
+   "warranty": "6 months"
+  },
+  "image": "https://images.unsplash.com/photo-1625708458528-802ec79b1ed8",
+  "variants": [
+   {
+    "id": 61,
+    "sku": "AK-030-1",
+    "label": "500 ml",
+    "price": 499,
+    "quantity": 60
+   }
+  ],
+  "aeo": {
+   "summary": "A 180 g, 500 ml school bottle for kids with a locking flip straw. Made of BPA-free Tritan; not insulated.",
+   "faqs": [
+    {
+     "q": "Is it safe for children?",
+     "a": "Yes, it is made of BPA-free Tritan plastic."
+    },
+    {
+     "q": "Will it leak in a school bag?",
+     "a": "Not when the straw lid is locked."
+    },
+    {
+     "q": "Does it keep drinks cold?",
+     "a": "No, it is not insulated."
+    }
+   ],
+   "keywords": [
+    "kids bottle",
+    "school bottle",
+    "straw bottle",
+    "lightweight"
+   ],
+   "best_for": [
+    "school",
+    "kids"
+   ]
+  }
+ },
+ {
+  "id": 31,
+  "name": "FlexGym Shaker Bottle 1 L",
+  "category": "Sports & Fitness",
+  "seller": "FlexGym",
+  "kind": "water bottle",
+  "description": "A 1 litre gym bottle with a mixing ball for protein shakes, measurement marks and a screw lid. Not insulated.",
+  "specs": {
+   "capacity": "1 L",
+   "weight": "210 g",
+   "material": "BPA-free plastic",
+   "insulation": "Not insulated",
+   "leak_proof": "Yes, screw lid",
+   "warranty": "No warranty"
+  },
+  "image": "https://images.unsplash.com/photo-1775199603078-e1d964929e10",
+  "variants": [
+   {
+    "id": 62,
+    "sku": "FG-031-1",
+    "label": "1 L",
+    "price": 599,
+    "quantity": 45
+   }
+  ],
+  "aeo": {
+   "summary": "A 1 litre gym shaker bottle with a mixing ball and measurement marks. Weighs 210 g; not insulated.",
+   "faqs": [
+    {
+     "q": "Can I mix protein shakes in it?",
+     "a": "Yes, it has a steel mixing ball."
+    },
+    {
+     "q": "Is it dishwasher safe?",
+     "a": "Yes, top rack only."
+    },
+    {
+     "q": "Does it keep water cold?",
+     "a": "No, it is not insulated."
+    }
+   ],
+   "keywords": [
+    "shaker bottle",
+    "protein shaker",
+    "gym bottle",
+    "1 litre"
+   ],
+   "best_for": [
+    "gym",
+    "protein shakes"
+   ]
+  }
+ },
+ {
+  "id": 32,
+  "name": "GlassPure Office Bottle 750 ml",
+  "category": "Sports & Fitness",
+  "seller": "GlassPure",
+  "kind": "water bottle",
+  "description": "Glass water bottle with a silicone sleeve.",
+  "specs": {
+   "capacity": "750 ml",
+   "material": "Borosilicate glass"
+  },
+  "image": "https://images.unsplash.com/photo-1595994195534-d5219f02f99f",
+  "variants": [
+   {
+    "id": 63,
+    "sku": "GP-032-1",
+    "label": "750 ml",
+    "price": 899,
+    "quantity": 30
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "name": "Pulse 2 Smartwatch with AMOLED Display",
+  "category": "Electronics",
+  "description": "1.43-inch AMOLED smartwatch with heart-rate, SpO2 and sleep tracking, built-in GPS and a 10-day battery. Water resistant to 5 ATM.",
+  "specs": {
+   "display": "1.43\" AMOLED",
+   "battery": "Up to 10 days",
+   "sensors": "Heart rate, SpO2, accelerometer",
+   "gps": "Built-in",
+   "water_resistance": "5 ATM",
+   "connectivity": "Bluetooth 5.3",
+   "compatibility": "Android 8+ and iOS 14+",
+   "warranty": "1-year"
+  },
+  "image": "https://images.unsplash.com/photo-1624096104992-9b4fa3a279dd",
+  "variants": [
+   {
+    "id": 64,
+    "sku": "SW-033-1",
+    "label": "Black strap",
+    "price": 4999,
+    "quantity": 1
+   },
+   {
+    "id": 65,
+    "sku": "SW-033-2",
+    "label": "Blue strap",
+    "price": 4999,
+    "quantity": 6
+   }
+  ],
+  "aeo": {
+   "faqs": [
+    {
+     "q": "Can this watch be delivered by Friday?",
+     "a": "The ShopWave demo listing promises delivery by Friday for postcode 560001. Check the selected strap's current stock and delivery estimate before checkout."
+    },
+    {
+     "q": "Does it work with an iPhone?",
+     "a": "Yes. It pairs over Bluetooth 5.3 with iPhones on iOS 14 or later and Android phones on Android 8 or later."
+    },
+    {
+     "q": "How long does the battery last?",
+     "a": "Up to 10 days on a charge. Actual battery life varies with usage, such as how often GPS is on."
+    },
+    {
+     "q": "Can I wear it while swimming?",
+     "a": "It is rated 5 ATM, so it handles rain, splashes and swimming in shallow water. It is not meant for diving or high-speed water sports."
+    },
+    {
+     "q": "Do I need to carry my phone for GPS?",
+     "a": "No. The watch has built-in GPS, so it can track outdoor routes without your phone."
+    },
+    {
+     "q": "What health data does it track?",
+     "a": "Heart rate, blood oxygen (SpO2) and sleep, plus activity through its accelerometer."
+    }
+   ]
+  },
+  "delivery_promise": "Delivered by Friday for demo postcode 560001.",
+  "gift_alternative_ids": [35],
+  "demo_scenario": "gift-delivery"
+ },
+ {
+  "id": 35,
+  "name": "TrailTone Open-Ear Wireless Headphones",
+  "category": "Electronics",
+  "seller": "ShopWave Demo",
+  "kind": "headphones",
+  "delivery_promise": "Delivered by Friday for demo postcode 560001.",
+  "gift_alternative_ids": [33],
+  "description": "Open-ear wireless headphones for outdoor walks and everyday listening. They connect over Bluetooth 5.3, support iPhone on iOS 14 or later, play for up to 8 hours per charge, and provide up to 24 hours with the charging case. IPX4 splash resistance.",
+  "specs": {
+   "design": "Open-ear",
+   "connectivity": "Bluetooth 5.3",
+   "compatibility": "iPhone on iOS 14+ and Android 8+",
+   "battery": "Up to 8 hours per charge; 24 hours with case",
+   "water_resistance": "IPX4",
+   "warranty": "1 year"
+  },
+  "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb",
+  "variants": [
+   {
+    "id": 68,
+    "sku": "SW-035-1",
+    "label": "Graphite",
+    "price": 4499,
+    "quantity": 8
+   }
+  ],
+  "aeo": {
+   "summary": "Open-ear wireless headphones for walks and everyday listening, with iPhone compatibility, Bluetooth 5.3, and up to 24 hours of listening with the charging case.",
+   "faqs": [
+    {
+     "q": "Can these headphones be delivered by Friday?",
+     "a": "The ShopWave demo listing promises delivery by Friday for postcode 560001. Check the selected variant's current stock and delivery estimate before checkout."
+    },
+    {
+     "q": "Does it work with an iPhone?",
+     "a": "Yes. It supports iPhone models on iOS 14 or later."
+    },
+    {
+     "q": "How long does the battery last?",
+     "a": "Up to 8 hours per charge and up to 24 hours with the charging case."
+    },
+    {
+     "q": "Can I use it for walking?",
+     "a": "Yes. Its open-ear design keeps your ears uncovered, and it has IPX4 splash resistance."
+    }
+   ],
+   "keywords": [
+    "open-ear headphones",
+    "iPhone compatible headphones",
+    "walking headphones"
+   ],
+   "best_for": [
+    "walking",
+    "everyday listening"
+   ]
+  }
+ },
+ {
+  "id": 36,
+  "name": "Wireless Earbuds",
+  "category": "Electronics",
+  "seller": "ShopWave Demo",
+  "kind": "headphones",
+  "description": "Wireless earbuds for listening.",
+  "specs": {},
+  "image": "https://images.unsplash.com/photo-1757168120889-4317e57a4849",
+  "variants": [
+   {
+    "id": 69,
+    "sku": "SW-036-1",
+    "label": "Black",
+    "price": 2999,
+    "quantity": 20
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "name": "Fitness Band",
+  "category": "Electronics",
+  "seller": "ShopWave Demo",
+  "kind": "fitness band",
+  "description": "A fitness band for everyday use.",
+  "specs": {},
+  "image": "https://images.unsplash.com/photo-1532288922150-c04819be02b4",
+  "variants": [
+   {
+    "id": 70,
+    "sku": "SW-037-1",
+    "label": "Black",
+    "price": 2499,
+    "quantity": 20
+   }
+  ]
+ }
+]
