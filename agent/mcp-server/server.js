@@ -36,7 +36,7 @@ function createServer() {
     contents: [{ uri: UI, mimeType: RESOURCE_MIME_TYPE, text: page(), _meta: { ui: { csp: { resourceDomains: ['https://images.unsplash.com'] } } } }],
   }))
 
-  for (const t of createTools(api)) {
+  for (const t of createTools(api, undefined, { storefrontUrl: process.env.STOREFRONT_URL || undefined })) {
     const config = {
       description: t.description,
       inputSchema: fromJSONSchema({ type: 'object', properties: t.properties, required: t.required || [] }),

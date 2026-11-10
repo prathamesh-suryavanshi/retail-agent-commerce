@@ -137,6 +137,9 @@ Its data is in `agent/mcp-server/shop-data.json` (created on first change; `npm 
 shop's data: the browser keeps its own copy in localStorage. After updating the seed (e.g. to this Session 4 version),
 run `npm run reset` once so the server does not keep an older copy.
 
+Recommendation links from the MCP server point to `https://retail-agent-commerce.vercel.app` by default. Set
+`STOREFRONT_URL` when starting the server to use another storefront. Browser WebMCP links use the current site's origin.
+
 ### Remote hosts: claude.ai and ChatGPT (HTTP)
 
 ```bash

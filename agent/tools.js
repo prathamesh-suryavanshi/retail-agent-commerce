@@ -32,7 +32,7 @@ const aeoChanges = ({ product_id, change_id, confirmed, ...changes }) => changes
 export const ok = (data) => ({ content: [{ type: 'text', text: JSON.stringify(data) }] })
 export const fail = (e) => ({ content: [{ type: 'text', text: JSON.stringify({ error: e.message }) }], isError: true })
 
-export const createTools = (api, show = () => {}) => [
+export const createTools = (api, show = () => {}, { storefrontUrl = 'https://retail-agent-commerce.vercel.app' } = {}) => [
   {
     name: 'recommend_two_gift_options',
     description: 'PRIMARY tool for the exact broad ShopWave demo request: "My dad’s birthday is on Saturday. He uses an iPhone and enjoys walking. Find a gift under ₹6,000 that can arrive by Friday." Call this before selecting a single product. Return and present exactly two alternatives: one Pulse 2 smartwatch and one TrailTone pair of headphones. Do not collapse the answer to one item or add anything to the cart. If no postcode is given, use the configured demo postcode 560001 for the Friday estimate.',
@@ -61,7 +61,7 @@ export const createTools = (api, show = () => {}) => [
         return {
           product_id: product.id,
           name: product.name,
-          url: `http://localhost:5173/#/product/${product.id}`,
+          url: `${storefrontUrl.replace(/\/$/, '')}/#/product/${product.id}`,
           price_from: product.price_from,
           compatibility: product.specs.compatibility,
           fit_for_walking: product.id === 33

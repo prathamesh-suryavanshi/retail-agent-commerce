@@ -8,7 +8,7 @@ import { showInUI } from '../../src/ui-bus'
 import { createTools, ok, fail } from '../tools'
 import './webmcp.css'
 
-const tools = createTools(api, showInUI)
+const tools = createTools(api, showInUI, { storefrontUrl: window.location.origin })
 
 const getCtx = () => {
   // Current spec: document.modelContext. Older drafts / early Chrome: navigator.modelContext.
