@@ -79,6 +79,8 @@ export const createTools = (api, show = () => {}, { storefrontUrl = 'https://ret
         }
       }))
 
+      show({ view: 'gift-options', productIds: options.map((option) => option.product_id) })
+
       return {
         instruction: 'Present exactly these two gift alternatives, one smartwatch and one pair of headphones. Keep both visible as choices for the shopper; do not select only one.',
         demo_postal_code: postal_code,

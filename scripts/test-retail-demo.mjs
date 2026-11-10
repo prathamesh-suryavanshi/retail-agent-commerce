@@ -26,6 +26,7 @@ try {
   const recommendations = await call('recommend_two_gift_options')
   assert.equal(recommendations.options.length, 2)
   assert.deepEqual(recommendations.options.map((option) => option.product_id), [33, 35])
+  assert.deepEqual(calls.at(-1), { view: 'gift-options', productIds: [33, 35] })
   assert.equal(recommendations.options[0].url, 'https://retail-agent-commerce.vercel.app/#/product/33')
   const localTools = createTools(api, undefined, { storefrontUrl: 'http://localhost:5173/' })
   const localRecommendations = await localTools.find((tool) => tool.name === 'recommend_two_gift_options').run()

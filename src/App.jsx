@@ -14,6 +14,7 @@ import Checkout from './views/Checkout'
 import Orders from './views/Orders'
 import Inventory from './views/Inventory'
 import Widgets from './views/Widgets'
+import GiftOptions from './views/GiftOptions'
 
 const VIEW_PATH = { shop: '/', cart: '/cart', wishlist: '/wishlist', orders: '/orders', inventory: '/admin', checkout: '/checkout' }
 
@@ -29,6 +30,7 @@ export default function App() {
     if (d.filters) { setFilters({ ...DEFAULT_FILTERS, ...d.filters }); setSearch(d.filters.query || '') }
     if (d.panel === 'inbox') setInboxOpen(true)
     if (d.view === 'product') navigate('/product/' + d.productId + (d.aiView ? '?view=ai' : ''))
+    else if (d.view === 'gift-options') navigate('/gift-options?ids=' + d.productIds.join(','))
     else if (d.view === 'orders' && d.placed) navigate('/orders?placed=' + d.placed)
     else if (d.view) navigate(VIEW_PATH[d.view] || '/')
   }), [])
@@ -97,6 +99,7 @@ export default function App() {
 
       <main onClick={() => inboxOpen && setInboxOpen(false)}>
         {route.page === 'home' && <Home {...ctx} />}
+        {route.page === 'gift-options' && <GiftOptions ids={route.params.get('ids') || ''} />}
         {route.page === 'product' && <ProductPage id={route.id} run={run} setFilters={setFilters} aiView={route.params.get('view') === 'ai'} />}
         {route.page === 'wishlist' && <Wishlist run={run} />}
         {route.page === 'cart' && <Cart run={run} />}
