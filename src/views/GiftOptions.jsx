@@ -17,7 +17,7 @@ export default function GiftOptions({ ids }) {
 
   return (
     <section className="page">
-      <h1>Gift ideas for you</h1>
+      <h1>Recommended for you</h1>
       <p>Compare these options and open either product to learn more.</p>
       {products === null ? <p>Loading gift ideas…</p> : products.length === 0 ? <p>These gift ideas are unavailable. Try your search again.</p> : (
         <CardGrid min={230}>

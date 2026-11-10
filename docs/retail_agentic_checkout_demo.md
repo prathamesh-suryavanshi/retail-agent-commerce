@@ -22,7 +22,7 @@ Introduce the scenario:
 Enter:
 
 ```text
-My dad's birthday is on Saturday. He uses an iPhone and enjoys walking. Find gifts under ₹6,000 that can arrive by Friday. Open http://localhost:5173/?reset
+My dad's birthday is on Saturday. He uses an iPhone and enjoys walking. Find gifts under ₹6,000 that can arrive by Friday at 560001. Open https://retail-agent-commerce.vercel.app/?reset and show me as well
 ```
 
 The demo's `recommend_two_gift_options` WebMCP tool is designed for this exact broad request. It returns the Pulse 2 and TrailTone together with current variant stock and the next-Friday estimate for configured demo postcode `560001`, and displays both in the storefront so the shopper can open either product. This requires the tool to run through WebMCP in the open storefront tab; the separate MCP server cannot control that tab. Each listing also includes the paired alternative in its catalog result, so ChatGPT has both choices even if it starts with only one category.
