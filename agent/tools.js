@@ -169,7 +169,22 @@ export const createTools = (api, show = () => {}, { storefrontUrl = 'https://ret
     properties: { variant_id: int, quantity: int }, required: ['variant_id', 'quantity'],
     run: async (a) => { const r = await api.addToCart(a.variant_id, a.quantity); show({ view: 'cart' }); return r },
   },
-  { name: 'get_cart', description: 'Show the cart with totals.', readOnly: true, properties: {}, run: async () => api.getCart() },
+  {
+    name: 'get_cart', description: 'Check the current cart before checkout. If an item has insufficient stock, present its available same-product alternatives and their prices and stock, check delivery for the shopper’s postcode, and ask permission before replacing it or collecting checkout details.',
+    readOnly: true, properties: { postal_code: { ...str, description: 'Optional delivery postcode for alternative estimates' } },
+    run: async ({ postal_code } = {}) => {
+      const cart = await api.getCart()
+      if (postal_code) await Promise.all(cart.items.flatMap((item) => item.alternatives.map(async (alternative) => {
+        alternative.delivery = (await api.getVariant(alternative.variant_id, postal_code)).delivery
+      })))
+      return cart
+    },
+  },
+  {
+    name: 'replace_cart_variant', description: 'Replace a cart item with another variant of the same product only after the shopper approves that substitution. Stock is checked again atomically.',
+    properties: { variant_id: int, replacement_variant_id: int }, required: ['variant_id', 'replacement_variant_id'],
+    run: async (a) => { const r = await api.replaceCartVariant(a.variant_id, a.replacement_variant_id); show({ view: 'cart' }); return r },
+  },
   {
     name: 'remove_from_cart', description: 'Remove a variant from the cart.',
     properties: { variant_id: int }, required: ['variant_id'],

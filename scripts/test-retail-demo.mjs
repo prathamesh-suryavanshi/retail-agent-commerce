@@ -78,6 +78,11 @@ try {
   const sale = store.simulateCompetingSale()
   assert.equal(sale.quantity, 0)
   assert.equal(sale.status, 'out_of_stock')
+  const affectedCart = await call('get_cart', { postal_code: postalCode })
+  assert.equal(affectedCart.items[0].available, 0)
+  assert.deepEqual(affectedCart.items[0].alternatives.map((v) => [v.variant_id, v.label, v.price, v.available]), [[65, 'Blue strap', 4999, 6]])
+  assert.equal(affectedCart.items[0].alternatives[0].delivery.estimated_delivery_date, initialBlack.delivery.estimated_delivery_date)
+  assert.equal((await call('get_cart')).items[0].variant_id, 64)
   assert.throws(() => store.simulateCompetingSale(), /Expected one black watch/)
   const soldOutBlack = await call('check_availability', { variant_id: 64, postal_code: postalCode })
   assert.equal(soldOutBlack.status, 'out_of_stock')
@@ -87,8 +92,7 @@ try {
   assert.equal(availableBlue.delivery.estimated_delivery_date, initialBlack.delivery.estimated_delivery_date)
 
   // Following the shopper's approval, replace black with blue and place one order.
-  await call('remove_from_cart', { variant_id: 64 })
-  await call('add_to_cart', { variant_id: 65, quantity: 1 })
+  await call('replace_cart_variant', { variant_id: 64, replacement_variant_id: 65 })
   const finalCart = await call('get_cart')
   assert.equal(finalCart.items[0].label, 'Blue strap')
   assert.equal(finalCart.total, 4999)

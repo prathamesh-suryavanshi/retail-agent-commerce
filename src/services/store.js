@@ -273,6 +273,9 @@ export function createStore(storage) {
         variant_id: variant.id, product_id: product.id, product_name: product.name, image: product.image || null, category: product.category, sku: variant.sku,
         label: variant.label, price: variant.price, quantity: row.quantity,
         available: variant.quantity, subtotal: variant.price * row.quantity,
+        alternatives: row.quantity > variant.quantity ? product.variants
+          .filter((v) => v.id !== variant.id && v.quantity >= row.quantity + (state.cart.find((r) => r.variant_id === v.id)?.quantity || 0))
+          .map((v) => ({ variant_id: v.id, label: v.label, price: v.price, available: v.quantity })) : [],
       }
     })
     return { items, item_count: items.reduce((s, i) => s + i.quantity, 0), total: items.reduce((s, i) => s + i.subtotal, 0) }
@@ -306,6 +309,22 @@ export function createStore(storage) {
     return cartView(state)
   }
   function removeFromCart(variantId) { return setCartQuantity(variantId, 0) }
+  function replaceCartVariant(variantId, replacementId) {
+    const state = load()
+    const { product, variant } = findVariant(state, variantId)
+    const replacement = findVariant(state, replacementId)
+    const row = state.cart.find((r) => r.variant_id === variant.id)
+    if (!row) throw new Error('Item is no longer in the cart')
+    if (replacement.product.id !== product.id || replacement.variant.id === variant.id) throw new Error('Choose another variant of the same product')
+    const existing = state.cart.find((r) => r.variant_id === replacement.variant.id)
+    const quantity = row.quantity + (existing?.quantity || 0)
+    if (replacement.variant.quantity < quantity) throw new Error(`Only ${replacement.variant.quantity} units of ${replacement.variant.label} available`)
+    if (existing) existing.quantity = quantity
+    else state.cart.push({ variant_id: replacement.variant.id, quantity: row.quantity })
+    state.cart = state.cart.filter((r) => r.variant_id !== variant.id)
+    save(state)
+    return cartView(state)
+  }
 
   // ---- checkout ----
   const REQUIRED = ['name', 'email', 'phone', 'address', 'city', 'postal_code']
@@ -325,7 +344,7 @@ export function createStore(storage) {
     for (const item of cart.items) findVariant(state, item.variant_id).variant.quantity -= item.quantity
     const order = {
       id: uid('ORD'), status: 'placed', created_at: new Date().toISOString(),
-      items: cart.items.map(({ available, ...rest }) => rest), total: cart.total,
+      items: cart.items.map(({ available, alternatives, ...rest }) => rest), total: cart.total,
       customer: Object.fromEntries(REQUIRED.map((k) => [k, String(customer[k]).trim()])),
       delivery,
     }
@@ -397,7 +416,7 @@ export function createStore(storage) {
     getWishlist, addToWishlist, removeFromWishlist,
     notifyWhenAvailable, getNotifications,
     getInventory, restock, simulateCompetingSale, addProduct, getInbox, markRead, clearInbox,
-    getCart, addToCart, setCartQuantity, removeFromCart,
+    getCart, addToCart, setCartQuantity, removeFromCart, replaceCartVariant,
     placeOrder, getOrders, reset,
     auditAeo, previewAeoUpdate, setAeoMetadata, getAiView,
   }

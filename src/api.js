@@ -41,6 +41,7 @@ export const api = {
   addToCart: wrap(store.addToCart),
   setCartQuantity: wrap(store.setCartQuantity),
   removeFromCart: wrap(store.removeFromCart),
+  replaceCartVariant: wrap(store.replaceCartVariant),
   placeOrder: wrap(store.placeOrder),
   getOrders: wrap(store.getOrders),
   reset: wrap(store.reset),
